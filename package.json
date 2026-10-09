@@ -1,0 +1,19 @@
+{
+  "name": "polite-scraper",
+  "version": "1.0.0",
+  "description": "A small, polite scraper: Books to Scrape to clean, validated JSON (FlyRank W5 A9)",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start:fake": "node src/index.js --with-fake",
+    "robots": "node src/robots.js",
+    "test": "node --test tests/parser.test.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "zod": "^3.23.8"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
